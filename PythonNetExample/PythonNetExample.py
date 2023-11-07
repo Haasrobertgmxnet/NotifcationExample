@@ -20,3 +20,19 @@ sC.PropertyChanged -= handler
 sC.Number = sC.Number + 23
 print(sC.Number)
 print("END!")
+
+"""
+
+Sample output:
+Pythonnet example
+Python event handler called!
+NotifyPropertyChanged called!
+Python event handler called!
+NotifyPropertyChanged called!
+2
+NotifyPropertyChanged called!
+25
+END!
+Press any key to continue . . .
+
+"""
